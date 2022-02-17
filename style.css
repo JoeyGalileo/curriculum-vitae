@@ -1,21 +1,14 @@
-﻿.header {
-    max-width: 800px;
-    display: flex;
-    padding: 50px;
-    margin: 20px;
-    align-content: center;
-}
-.fa {
-    padding: 20px;
+﻿.fa {
+    padding: 5px;
     font-size: 30px;
-    width: 50px;
+    width: 20px;
     text-align: center;
     text-decoration: none;
-    margin: 5px 2px;
+    margin: 5px 5px;
 }
 
-    .fa:hover {
-        opacity: 0.7;
+.fa:hover {
+    opacity: 0.7;
     }
 
 .fa-facebook {
@@ -38,18 +31,8 @@
     color: white;
 }
 
-.fa-youtube {
-    background: #bb0000;
-    color: white;
-}
-
 .fa-instagram {
     background: #125688;
-    color: white;
-}
-
-.fa-pinterest {
-    background: #cb2027;
     color: white;
 }
 
@@ -58,75 +41,36 @@
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
-
-.fa-skype {
-    background: #00aff0;
-    color: white;
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
-
-.fa-android {
-    background: #a4c639;
-    color: white;
+.container {
+    margin: 0 auto;
+    max-width: 840px;
+    padding: 20px;
 }
-
-.fa-dribbble {
-    background: #ea4c89;
-    color: white;
-}
-
-.fa-vimeo {
-    background: #45bbff;
-    color: white;
-}
-
-.fa-tumblr {
-    background: #2c4762;
-    color: white;
-}
-
-.fa-vine {
-    background: #00b489;
-    color: white;
-}
-
-.fa-foursquare {
-    background: #45bbff;
-    color: white;
-}
-
-.fa-stumbleupon {
-    background: #eb4924;
-    color: white;
-}
-
-.fa-flickr {
-    background: #f40083;
-    color: white;
-}
-
-.fa-yahoo {
-    background: #430297;
-    color: white;
-}
-
-.fa-soundcloud {
-    background: #ff5500;
-    color: white;
-}
-
-.fa-reddit {
-    background: #ff5700;
-    color: white;
-}
-
-.fa-rss {
-    background: #ff6600;
-    color: white;
-}
-.navigation {
-    text-align: end;
-    overflow: hidden;
+html, body {
+    height: 100%;
+    margin: 0;
 }
 .footer {
-   
+    width: 100%;
+    background-color: #ffffff;
+}
+.navigation {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation a {
+        color: black;
+        text-decoration: none;
+        margin-left: 30px;
+    }
+* {
+    margin: 0;
 }
